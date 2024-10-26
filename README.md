@@ -1,4 +1,15 @@
-# Uso de Ramas para Repositorios
+---
+title: Uso de Ramas para Repositorios
+output: 
+  pdf_document:
+    extra_dependencies: ["libertinus"]
+    latex_engine: xelatex
+fontsize: 12pt
+geometry: margin=1in
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+```
 
 Te comparto los pasos que debe seguir un desarrollador para trabajar con el flujo de trabajo Gitflow en un proyecto, considerando posibles errores comunes como el hecho de que el repositorio local no esté actualizado.
 
@@ -109,6 +120,16 @@ git push origin feature/nombre-de-la-tarea
 ### 8. Crear una Pull Request (PR) o Merge Request (MR) para fusionar `feature` en `develop`
 
 El desarrollador ahora puede ir a la plataforma de gestión del repositorio (GitHub, GitLab, Bitbucket, etc.) para crear la PR/MR, solicitando la fusión de su rama `feature` en `develop`.
+
+- En GitHub, cambiar a la rama en la que estabas trabajando.
+
+- Clickear la opcion para realizar el PR.
+
+![](githab.png)
+
+![](githab2.png)
+
+Ahora puede añadir los comentarios correspondientes y abrir el PR.
 
 ### 9. Asegurarse de que `develop` esté actualizado antes de la fusión final
 
