@@ -1,15 +1,4 @@
----
-title: Uso de Ramas para Repositorios
-output: 
-  pdf_document:
-    extra_dependencies: ["libertinus"]
-    latex_engine: xelatex
-fontsize: 12pt
-geometry: margin=1in
----
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(eval = FALSE)
-```
+# Uso de Ramas para Repositorios
 
 Te comparto los pasos que debe seguir un desarrollador para trabajar con el flujo de trabajo Gitflow en un proyecto, considerando posibles errores comunes como el hecho de que el repositorio local no esté actualizado.
 
